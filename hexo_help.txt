@@ -1,0 +1,17 @@
+[hexo]
+
+1. 설치 및 실행
+	> npm install hexo-cli -g
+	> hexo init <디렉토리명>
+	> <디렉토리명> 이동 후 npm install
+	> hexo server
+	> Test - http://0.0.0.0:4000/
+
+2. 글쓰기
+	1) 신규 : hexo new <포스트명>
+	2) 초안 : hexo new draft <포스트명> > hexo publish <포스트명>
+
+3. deploy
+	1) hexo clean generate
+	2) hexo deploy (npm install --save hexo-deployer-git)
+
