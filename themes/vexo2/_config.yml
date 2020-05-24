@@ -1,0 +1,62 @@
+author: yanm1ng # 作者
+description: yanm1ng's blog
+keyword: hexo-theme, vuejs
+favicon: 
+
+excerpt_link: Read more
+
+menu:
+ Home: /
+# Java: /tags/#java
+ Tags: /tags/
+# Archives: /archives/
+# Projects: /project/
+ About: /about/
+
+# highlight
+highlight:
+  tomorrow
+
+# catalog
+catalog: false
+
+# donate
+donate: false
+
+# qrcode
+qrcode: false
+
+# comment
+# you can set gitment, uyan or disqus
+
+comment:
+
+# gitment config
+gitment_owner:
+gitment_repo:
+gitment_oauth_id:
+gitment_oauth_secret:
+
+# uyan config
+# if you want to use uyan as your blog comment, plz remove/comment out gitment config
+baidu_id: 
+google_analytics:
+# disqus config
+disqus_shortname: 
+
+about: 
+  banner:
+  avatar: https://avatars1.githubusercontent.com/u/37648941?s=460&u=b681cc27467589cedd8351e32fcc249674457b84&v=4
+  description: "In the end, we are our choices."
+  weibo_username:
+  twitter_username:
+  github_username:
+  zhihu_username:
+  douban_username:
+  linkedin_username:
+
+# MathJax Support
+mathjax:
+  enable: true
+  per_page: false
+  cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
